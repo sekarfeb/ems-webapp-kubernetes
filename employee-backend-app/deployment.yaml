@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: app
-          image: sekarfeb/ems-backend-app:latest
+          image: sekarfeb/ems-webapp-kubernetes-backend:latest
           ports:
             - containerPort: 8080
 ---

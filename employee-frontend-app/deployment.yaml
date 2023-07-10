@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: app
-          image: sekarfeb/ems-frontend-app:latest
+          image: sekarfeb/ems-webapp-kubernetes-frontend:latest
           ports:
             - containerPort: 3000
 ---
