@@ -32,4 +32,5 @@ spec:
       port: 3000
       targetPort: 3000
   type: LoadBalancer # Use the appropriate service type for your environment
+  loadBalancerIP: 35.192.187.119
 
