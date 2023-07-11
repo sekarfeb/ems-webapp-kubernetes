@@ -8,7 +8,7 @@ WORKDIR /my-app
 COPY package*.json ./
 
 # Install dependencies
-RUN npm install
+RUN npm ci
 
 # Copy the entire React.js project to the container
 COPY . .
